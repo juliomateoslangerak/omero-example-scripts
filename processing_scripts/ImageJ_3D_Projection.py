@@ -280,7 +280,7 @@ def rotation_proj_stitch(conn, scriptParams):
     try:
         os.mkdir(tiff_stack_dir)
         os.mkdir(processed_img_dir)
-    except:
+    except Exception:
         pass
 
     def empty_dir(dir_path):
